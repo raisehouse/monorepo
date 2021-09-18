@@ -1,0 +1,15 @@
+{
+  "DeFiFacetAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "DiamondAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+  "DiamondCutFacetAddress": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+  "BookingFactoryFacetAddress": "0x19185aFF4873BD8B6Dec8B442aF4DA77c21e18F5",
+  "BlackholeAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "GreenholeAddress": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+  "UBIAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+  "BeniesAddress": "0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82",
+  "FundingRequestFactoryFacetAddress": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+  "RaiseFactoryFacetAddress": "0xF6330e1e0dC3Fde03e8143F1a838cfcb70311227",
+  "GrowingPricingAddress": "0xbB46D4185392c2E4712e3A0f074b301765076b3C",
+  "OneToOnePricingAddress": "0x2995b83B20e49D73E9aa98205DB3D57a44EDdA53",
+  "WhitelistAddress": "0x4b56cf762be8D8cEAfeCeC52826ABAD425628776"
+}

@@ -1,0 +1,59 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "FixedPricing",
+  "sourceName": "contracts/CustomPricing.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalSold",
+          "type": "uint256"
+        }
+      ],
+      "name": "nextPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalSold",
+          "type": "uint256"
+        }
+      ],
+      "name": "viewNextPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610118806100206000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806368d7f8d614603757806397ef5940146037575b600080fd5b60466042366004608f565b605a565b6040516051919060af565b60405180910390f35b6000692a5a058fc295ed0000008210607c576076836134bc60b8565b90506089565b608683613a9860b8565b90505b92915050565b6000806040838503121560a0578182fd5b50508035926020909101359150565b90815260200190565b600081600019048311821515161560dd57634e487b7160e01b81526011600452602481fd5b50029056fea2646970667358221220af2c7bf95df1d1b9be55aadc740bd18773eab93e0c6c0408d2821ad782a56fb864736f6c63430008010033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806368d7f8d614603757806397ef5940146037575b600080fd5b60466042366004608f565b605a565b6040516051919060af565b60405180910390f35b6000692a5a058fc295ed0000008210607c576076836134bc60b8565b90506089565b608683613a9860b8565b90505b92915050565b6000806040838503121560a0578182fd5b50508035926020909101359150565b90815260200190565b600081600019048311821515161560dd57634e487b7160e01b81526011600452602481fd5b50029056fea2646970667358221220af2c7bf95df1d1b9be55aadc740bd18773eab93e0c6c0408d2821ad782a56fb864736f6c63430008010033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

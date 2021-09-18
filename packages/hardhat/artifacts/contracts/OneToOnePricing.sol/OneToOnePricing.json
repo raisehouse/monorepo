@@ -1,0 +1,59 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "OneToOnePricing",
+  "sourceName": "contracts/OneToOnePricing.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalSold",
+          "type": "uint256"
+        }
+      ],
+      "name": "nextPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalSold",
+          "type": "uint256"
+        }
+      ],
+      "name": "viewNextPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060bd8061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806368d7f8d614603757806397ef5940146037575b600080fd5b60466042366004605e565b605a565b60405160519190607e565b60405180910390f35b5090565b60008060408385031215606f578182fd5b50508035926020909101359150565b9081526020019056fea264697066735822122020417db259d74d27390a1661635ad5a824260fa0bdf5c4ea9f4eb4abaa2370b364736f6c63430008010033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806368d7f8d614603757806397ef5940146037575b600080fd5b60466042366004605e565b605a565b60405160519190607e565b60405180910390f35b5090565b60008060408385031215606f578182fd5b50508035926020909101359150565b9081526020019056fea264697066735822122020417db259d74d27390a1661635ad5a824260fa0bdf5c4ea9f4eb4abaa2370b364736f6c63430008010033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
