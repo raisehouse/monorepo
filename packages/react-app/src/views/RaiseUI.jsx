@@ -155,7 +155,7 @@ export default function RaiseUI(props) {//props{match.params, provider, userSign
   function showHasTax() {
     if (raiseData) {
       if (parseInt(BigInt(raiseData[5])) > 0) {
-        return <>**This token applies a <b>{parseInt(BigInt(raiseData[5]))/10000}% additive tax</b> on transfers **</>
+        return <>**This token applies a <b>{parseInt(BigInt(raiseData[5]))/100}% tax</b> on transfers **</>
       }
       return <></>
     } else {

@@ -98,7 +98,7 @@ contract Raise is IRaise, ERC20, ITaxFree {
             if (amount-afterTax != 0) {
                 _transfer(_msgSender(), creator, amount-afterTax);
             }
-            _transfer(_msgSender(), recipient, amount);
+            _transfer(_msgSender(), recipient, afterTax);
        }
         return true;
     } 
@@ -124,7 +124,7 @@ contract Raise is IRaise, ERC20, ITaxFree {
             if (amount-afterTax != 0) {
                 _transfer(sender, creator, amount-afterTax);
             }
-            _transfer(sender, recipient, amount);
+            _transfer(sender, recipient, afterTax);
        }
 
         uint256 currentAllowance = allowance(sender,_msgSender());

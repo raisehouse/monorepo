@@ -13,7 +13,7 @@ contract RaiseFactoryFacet  {
     address public maintainer;
 
     constructor() {
-        maintainer = 0xEB186a4c91a5C618C3D66b10Ee5A20E964ADf4b1;
+        maintainer = 0xE2A06daDfcb0007855224F6f63CB34e2E6be0d6C;
     }
 
     function setGovToken(address tk) public {

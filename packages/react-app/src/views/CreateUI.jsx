@@ -210,7 +210,7 @@ export default function CreateUI({
         ⚙️ Here is an example UI that displays and sets the purpose in your smart contract:
       */}
       <Alert
-        message={"⚠️ Test your settings out on rinkeby testnet here[https://aboard-reward.surge.sh] before deploying to production to avoid any unexpected suprises"}
+        message={"⚠️ Test your settings out on rinkeby testnet here[https://weary-list.surge.sh/] before deploying to production to avoid any unexpected suprises"}
         description={<div></div>}
         type="error"
         closable={false}
