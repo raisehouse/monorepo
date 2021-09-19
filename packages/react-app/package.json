@@ -99,6 +99,6 @@
     "theme": "npx gulp less",
     "watch": "node ./scripts/watch.js",
 
-    "deploy": "./node_modules/.bin/gh-pages -d build"
+    "deploy": "gh-pages -d build"
   }
 }
